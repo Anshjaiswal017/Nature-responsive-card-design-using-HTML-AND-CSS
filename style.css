@@ -1,0 +1,390 @@
+@media screen and (max-width:480px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: beige;
+    }
+
+    .box {
+        background-color: white;
+        height: 800px;
+        width: 90vw;
+        margin-top: 22px;
+        border: 1px solid black;
+        border-radius: 8px;
+    }
+
+    img {
+        width: 84vw;
+        height: 28vh;
+        margin: 12px;
+        border: 2px black;
+        border-radius: 8px;
+    }
+
+    .button1 {
+        padding: 2px;
+        color: rgba(0, 0, 0, 0.575);
+        background-color: white;
+        border-radius: 5px;
+        margin-top: 2px;
+        margin-left: 30px;
+    }
+
+    .button2 {
+        padding: 2px;
+        color: rgba(0, 0, 0, 0.575);
+        background-color: white;
+        border-radius: 5px;
+        margin-top: 2px;
+        margin-left: 15px;
+    }
+
+    .button:hover {
+        color: black;
+        background-color: beige;
+        transition-duration: 0.3;
+    }
+
+    h1 {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 18px;
+        margin-top: 8px;
+    }
+
+    .boxb {
+        margin-left: 18px;
+        margin-right: 20px;
+        align-items: center;
+    }
+
+    p {
+        font-size: 1.2rem;
+        color: rgba(0, 0, 0, 0.719);
+    }
+
+    .boxc {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .bt {
+        height: 40px;
+        width: 100px;
+        color: blue;
+        background-color: rgba(0, 110, 255, 0.452);
+        border: 2px blue;
+        border-radius: 15px;
+    }
+
+    .bt:hover {
+        background-color: blue;
+        color: white;
+    }
+}
+
+@media screen and (max-width:1024px) and (min-width: 481px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: beige;
+    }
+
+    .box {
+        background-color: white;
+        height: 900px;
+        width: 90vw;
+        margin-top: 46px;
+        border: 1px solid black;
+        border-radius: 8px;
+    }
+
+    img {
+        width: 84vw;
+        height: 28vh;
+        margin: 20px 20px auto 20px;
+        border: 2px black;
+        border-radius: 8px;
+    }
+
+    .button1 {
+        height: 30px;
+        width: 50px;
+        padding: 2px;
+        color: rgba(0, 0, 0, 0.575);
+        background-color: white;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+
+    .button2 {
+        height: 30px;
+        width: 50px;
+        padding: 2px;
+        color: rgba(0, 0, 0, 0.575);
+        background-color: white;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+
+    .button:hover {
+        color: black;
+        background-color: beige;
+        transition-duration: 0.3;
+    }
+
+    h1 {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 20px;
+        margin-top: 12px;
+        font-size: 2.5rem;
+    }
+
+    .boxb {
+        margin-left: 20px;
+        margin-right: 20px;
+        align-items: center;
+    }
+
+    p {
+        font-size: 1.7rem;
+        color: rgba(0, 0, 0, 0.719);
+    }
+
+    .boxc {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .bt {
+        height: 70px;
+        width: 160px;
+        font-size: 1.5rem;
+        color: blue;
+        background-color: rgba(0, 110, 255, 0.452);
+        border: 2px blue;
+        border-radius: 15px;
+    }
+
+    .bt:hover {
+        background-color: blue;
+        color: white;
+    }
+}
+
+@media screen and (max-width:1200px) and (min-width: 1025px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: beige;
+    }
+
+    .box {
+        min-height: 80vh;
+        max-width: 35vw;
+        margin-top: 50px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 8px;
+    }
+
+    img {
+        height: 35vh;
+        width: 34vw;
+        margin-left: 9px;
+        margin-top: 10px;
+        border: 2px black;
+        border-radius: 8px;
+    }
+
+    .button1 {
+        height: 30px;
+        width: 50px;
+        padding: 2px;
+        color: rgba(0, 0, 0, 0.575);
+        background-color: white;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+
+    .button2 {
+        height: 30px;
+        width: 50px;
+        padding: 2px;
+        color: rgba(0, 0, 0, 0.575);
+        background-color: white;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+
+    .button:hover {
+        color: black;
+        background-color: beige;
+        transition-duration: 0.3;
+    }
+
+    h1 {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 20px;
+        margin-top: 12px;
+        font-size: 2.5rem;
+    }
+
+    .boxb {
+        margin-left: 20px;
+        margin-right: 20px;
+        align-items: center;
+    }
+
+    p {
+        font-size: 1.7rem;
+        color: rgba(0, 0, 0, 0.719);
+    }
+
+    .boxc {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .bt {
+        height: 70px;
+        width: 160px;
+        font-size: 1.5rem;
+        color: blue;
+        background-color: rgba(0, 110, 255, 0.452);
+        border: 2px blue;
+        border-radius: 15px;
+    }
+
+    .bt:hover {
+        background-color: blue;
+        color: white;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: beige;
+    }
+
+    h2 {
+        margin-left: 40%;
+        text-decoration: underline;
+    }
+
+    .box {
+        min-height: 80vh;
+        max-width: 35vw;
+        margin-top: 50px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+
+    .image {
+        height: 35vh;
+        width: 34vw;
+        margin-left: 9px;
+        margin-top: 10px;
+        border: 2px black;
+        border-radius: 10px;
+    }
+
+    .button1 {
+        padding: 2px;
+        color: rgba(0, 0, 0, 0.575);
+        background-color: white;
+        border-radius: 6px;
+        margin-top: 8px;
+        margin-left: 45px;
+    }
+
+    .button2 {
+        padding: 2px;
+        color: rgba(0, 0, 0, 0.575);
+        background-color: white;
+        border-radius: 6px;
+        margin-top: 8px;
+        margin-left: 15px;
+    }
+
+    .button:hover {
+        color: black;
+        background-color: beige;
+        transition-duration: 0.3;
+    }
+
+    h1 {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    .boxb {
+        margin-left: 20px;
+        margin-right: 20px;
+        align-items: center;
+    }
+
+    p {
+        font-size: 1.2rem;
+        color: rgba(0, 0, 0, 0.719);
+    }
+
+    .boxc {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bt {
+        height: 40px;
+        width: 100px;
+        margin-top: 20px;
+        color: blue;
+        background-color: rgba(0, 110, 255, 0.452);
+        border: 2px blue;
+        border-radius: 15px;
+    }
+
+    .bt:hover {
+        background-color: blue;
+        color: white;
+    }
+}
